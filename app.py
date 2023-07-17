@@ -102,7 +102,7 @@ class Calculator:
             elif self.operation == "*":
                 result = self.current_value * second_value
             elif self.operation == "**":
-                result = self.current_value ** second_value
+                result = self.current_value ** 2
             else:
                 result = self.current_value / second_value
             self.display.delete(0, tk.END)
